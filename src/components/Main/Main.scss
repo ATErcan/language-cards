@@ -1,0 +1,24 @@
+.languages-container {
+  background-color: orange;
+  width: 50%;
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+
+  .language-cards {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: repeat(10rem, 4);
+
+    .card-body {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

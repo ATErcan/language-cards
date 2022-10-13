@@ -11,7 +11,7 @@ const Card = () => {
               src={item.img}
               alt={item.name}
               className="card-img"
-              id={item.id}
+              id={item.name}
             />
             <h2 className="name">{item.name}</h2>
           </div>

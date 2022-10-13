@@ -10,19 +10,19 @@ import html from "../assets/html.png";
 export const data = [
   {
     id: 1,
-    name: "html",
+    name: "HTML",
     img: html,
     options: ["Website Development", "1993", "Tim Berners-Lee"],
   },
   {
     id: 2,
-    name: "css",
+    name: "CSS",
     img: css,
     options: ["Website Design", "1994", "Håkon Wium Lie"],
   },
   {
     id: 3,
-    name: "javascript",
+    name: "Javascript",
     img: javaScript,
     options: ["Website Development", "1995", "Brendan Eich"],
   },
@@ -34,25 +34,25 @@ export const data = [
   },
   {
     id: 5,
-    name: "python",
+    name: "Python",
     img: python,
     options: ["AI", "1980", "Guido van Rossum"],
   },
   {
     id: 6,
-    name: "java",
+    name: "Java",
     img: java,
     options: ["BackEnd", "1990s", "Sun Microsystems"],
   },
   {
     id: 7,
-    name: "c++",
+    name: "C++",
     img: cpp,
     options: ["Game Dev.", "1980s", "Bjarne Stroustrup"],
   },
   {
     id: 8,
-    name: "php",
+    name: "PHP",
     img: php,
     options: ["BackEnd", "1995", "	Rasmus Lerdorf"],
   },

@@ -1,10 +1,10 @@
 import "./Main.scss";
-import { data } from "../../helper/data";
+import { languages } from "../../helper/data";
 
 const Card = () => {
   return (
     <div className="language-cards">
-      {data.map((item) => {
+      {languages.map((item) => {
         return (
           <div key={item.id} className="card-body">
             <img

@@ -7,7 +7,7 @@ import php from "../assets/php.png";
 import javaScript from "../assets/javascript.png";
 import html from "../assets/html.png";
 
-export const data = [
+export const languages = [
   {
     id: 1,
     name: "HTML",

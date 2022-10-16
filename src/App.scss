@@ -1,6 +1,7 @@
 @import "./sass/reset";
+@import "./sass/_variables";
 
 .container {
-  background-color: #0f0;
+  background-color: $Aqua-Orange-1;
   padding: 2rem 0;
 }

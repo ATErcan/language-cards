@@ -6,3 +6,10 @@
     margin: 1rem auto;
   }
 }
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .header {
+    &-img {
+      max-width: 250px;
+    }
+  }
+}

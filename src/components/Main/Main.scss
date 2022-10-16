@@ -148,3 +148,46 @@
     }
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .languages-container {
+    padding: 0.5rem;
+    width: 85%;
+    h1 {
+      margin: 0.5rem;
+    }
+    .language-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .card-body {
+        padding: 1rem 0.5rem;
+        width: 90%;
+        margin: 0.5rem 0;
+
+        img {
+          width: 40%;
+          max-width: 100px;
+          margin-bottom: 2rem;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+        h2 {
+          font-size: 1.1rem;
+        }
+        #Javascript {
+          width: 80%;
+          max-width: 150px;
+        }
+        #Java {
+          width: 75%;
+        }
+        .card-ul {
+          font-size: 1rem;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
